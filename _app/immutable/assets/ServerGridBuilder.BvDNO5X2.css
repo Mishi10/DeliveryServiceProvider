@@ -1,0 +1,7 @@
+.wrapper.svelte-rfcc3f {
+    width: 100%;
+    align-items: center;
+    padding: size(8);
+    display: flex;
+    flex-direction: column
+}

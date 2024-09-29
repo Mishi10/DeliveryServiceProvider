@@ -1,0 +1,5 @@
+svg.svelte-zslijd {
+    --svg-color: hsl(var(--clr-on-surface-1), 1);
+    fill: var(--svg-color);
+    fill: hsl(var(--clr-on-surface-1), 1)
+}

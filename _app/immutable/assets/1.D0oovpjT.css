@@ -1,0 +1,38 @@
+.page.svelte-xlwaga.svelte-xlwaga {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
+}
+
+.page.svelte-xlwaga main.svelte-xlwaga {
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    padding: 0 2rem;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem
+}
+
+@media (max-width: 1300px) {
+    .page.svelte-xlwaga main.svelte-xlwaga {
+        padding: 0 2rem
+    }
+}
+
+@media (max-width: 600px) {
+    .page.svelte-xlwaga main.svelte-xlwaga {
+        padding: 0 1rem
+    }
+}
+
+.page.svelte-xlwaga main .title.svelte-xlwaga {
+    font-size: 40px;
+    line-height: 1.2rem
+}
+
+.page.svelte-xlwaga main .subtitle.svelte-xlwaga {
+    font-size: 30px
+}

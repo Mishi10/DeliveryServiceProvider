@@ -1,0 +1,67 @@
+.field.svelte-1o9lya5.svelte-1o9lya5 {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    --box-clr: hsl(var(--clr-on-surface-1), 1)
+}
+
+.field.svelte-1o9lya5 label:focus-within p.svelte-1o9lya5 {
+    color: hsl(var(--clr-on-surface-2), 1);
+    transition: color .2s
+}
+
+label.svelte-1o9lya5.svelte-1o9lya5 {
+    display: grid;
+    gap: .5rem 0;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: max-content 1fr max-content;
+    grid-template-areas: "label label" "icon input"
+}
+
+label.svelte-1o9lya5 span.svelte-1o9lya5 {
+    grid-area: icon;
+    display: flex
+}
+
+label.svelte-1o9lya5 span.svelte-1o9lya5 svg {
+    width: 2rem;
+    fill: var(--box-clr);
+    padding: .25rem 0rem .25rem .5rem;
+    transition: fill .2s
+}
+
+label.svelte-1o9lya5 input.svelte-1o9lya5 {
+    grid-area: input;
+    padding: .5rem;
+    transition: color .2s;
+    color: hsl(var(--clr-on-surface-1), 1);
+    z-index: 1
+}
+
+label.svelte-1o9lya5 input.svelte-1o9lya5::placeholder {
+    color: hsl(var(--clr-on-surface-2), 1)
+}
+
+label.svelte-1o9lya5 p.svelte-1o9lya5 {
+    grid-area: label;
+    font-weight: var(--fw-semibold)
+}
+
+label.svelte-1o9lya5 .box.svelte-1o9lya5 {
+    grid-area: 2/1/3/3;
+    border: solid .5px var(--box-clr);
+    padding: .5rem;
+    border-radius: .5rem;
+    transition: box-shadow .2s
+}
+
+input:focus+p+span svg,
+input:focus+p+span+.box {
+    --box-clr: hsl(var(--clr-primary-5), 1)
+}
+
+.error.svelte-1o9lya5.svelte-1o9lya5 {
+    color: hsl(var(--clr-error-5), 1);
+    font-weight: var(--fw-semibold);
+    width: 100%
+}

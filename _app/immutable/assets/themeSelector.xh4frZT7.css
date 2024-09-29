@@ -1,0 +1,40 @@
+.theme-selector-wrapper.svelte-ss55u1.svelte-ss55u1.svelte-ss55u1 {
+    --circle-diameter: 1.5rem;
+    --svg-color: hsl(var(--clr-on-surface-1), 1);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: .25rem;
+    width: calc(var(--circle-diameter) * 2 + 1rem);
+    background-color: hsl(var(--clr-surface-0), 1);
+    border: solid 1px hsl(var(--clr-on-surface-0), .5);
+    box-sizing: border-box;
+    border-radius: 100vh;
+    cursor: pointer
+}
+
+.theme-selector-wrapper.svelte-ss55u1 input[type=checkbox].svelte-ss55u1.svelte-ss55u1 {
+    grid-area: 1/1/2/2;
+    opacity: 0;
+    height: 0;
+    width: 0
+}
+
+.theme-selector-wrapper.svelte-ss55u1 input[type=checkbox].svelte-ss55u1:checked+span.svelte-ss55u1 {
+    transform: translate(calc(1 * var(--circle-diameter))) rotate(360deg)
+}
+
+.theme-selector-wrapper.svelte-ss55u1 span.svelte-ss55u1.svelte-ss55u1 {
+    grid-area: 1/1/2/2;
+    transition: transform .5s cubic-bezier(.68, -.55, .265, 1.55);
+    transform: translate(0);
+    border-radius: 50%
+}
+
+.theme-selector-wrapper.svelte-ss55u1 span.svelte-ss55u1.svelte-ss55u1,
+.theme-selector-wrapper.svelte-ss55u1 span svg.svelte-ss55u1.svelte-ss55u1 {
+    width: var(--circle-diameter);
+    height: var(--circle-diameter)
+}

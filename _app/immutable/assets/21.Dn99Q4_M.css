@@ -1,0 +1,42 @@
+.page.svelte-12ht07d.svelte-12ht07d {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
+}
+
+.page.svelte-12ht07d header.svelte-12ht07d {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2rem 4rem
+}
+
+.page.svelte-12ht07d main.svelte-12ht07d {
+    flex: 1 1 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    max-width: 450px;
+    margin: auto;
+    padding: 0 2rem;
+    width: 100%
+}
+
+@media (max-width: 450px) {
+    .page.svelte-12ht07d main.svelte-12ht07d {
+        padding: 0 2rem
+    }
+}
+
+@media (max-width: 600px) {
+    .page.svelte-12ht07d main.svelte-12ht07d {
+        padding: 0 1rem
+    }
+}
+
+.page.svelte-12ht07d main .page-content.svelte-12ht07d {
+    width: 100%;
+    background-color: hsl(var(--clr-surface-2), 1);
+    display: grid;
+    gap: 2rem;
+    view-transition-name: card
+}

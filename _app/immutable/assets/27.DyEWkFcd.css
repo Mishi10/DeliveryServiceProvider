@@ -1,0 +1,47 @@
+.dashboard-card.svelte-hliq9k {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.dashboard-card-title.svelte-hliq9k {
+    font-weight: 600;
+    text-align: center;
+    font-size: large;
+    margin-top: 1rem
+}
+
+.dashboard-card-content.svelte-hliq9k {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 1rem
+}
+
+.dashboard-card-value.svelte-hliq9k {
+    font-weight: 600;
+    font-size: xx-large
+}
+
+.dashboard-card-message.svelte-hliq9k {
+    font-size: small
+}
+
+.container.svelte-11g9mno.svelte-11g9mno {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    width: 100%
+}
+
+.container-row.svelte-11g9mno.svelte-11g9mno {
+    display: flex;
+    gap: 1rem 2rem;
+    flex-wrap: wrap
+}
+
+.container-row.svelte-11g9mno>div.svelte-11g9mno {
+    flex: 1
+}

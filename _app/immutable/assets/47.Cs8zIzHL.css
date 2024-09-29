@@ -1,0 +1,9 @@
+fieldset.svelte-1d99xdh {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+legend.subtitle.svelte-1d99xdh {
+    margin-bottom: .5rem
+}

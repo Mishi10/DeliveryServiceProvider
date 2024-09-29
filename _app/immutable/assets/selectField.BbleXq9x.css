@@ -1,0 +1,89 @@
+svg.svelte-1gv7519 {
+    fill: var(--clr)
+}
+
+.field.svelte-pm1ggy.svelte-pm1ggy {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    --box-clr: hsl(var(--clr-on-surface-1), 1)
+}
+
+.field.svelte-pm1ggy label:focus-within p.svelte-pm1ggy {
+    color: hsl(var(--clr-on-surface-2), 1);
+    transition: color .2s
+}
+
+label.svelte-pm1ggy.svelte-pm1ggy {
+    display: grid;
+    gap: .5rem 0;
+    grid-template-columns: max-content 1fr max-content;
+    grid-template-rows: max-content 1fr max-content;
+    grid-template-areas: "label label label" "icon input drop-icon"
+}
+
+label.svelte-pm1ggy span.svelte-pm1ggy {
+    grid-area: icon;
+    display: flex
+}
+
+label.svelte-pm1ggy span.svelte-pm1ggy .slot-svg {
+    width: 2rem;
+    fill: var(--box-clr);
+    padding: .25rem 0rem .25rem .5rem;
+    transition: fill .2s
+}
+
+label.svelte-pm1ggy select.svelte-pm1ggy {
+    width: 100%;
+    grid-area: input;
+    padding: .5rem;
+    transition: color .2s;
+    color: hsl(var(--clr-on-surface-1), 1);
+    z-index: 1
+}
+
+label.svelte-pm1ggy select.svelte-pm1ggy::placeholder {
+    color: hsl(var(--clr-on-surface-2), 1)
+}
+
+label.svelte-pm1ggy select option.svelte-pm1ggy {
+    background: hsl(var(--clr-surface-1), 1)
+}
+
+label.svelte-pm1ggy p.svelte-pm1ggy {
+    grid-area: label;
+    font-weight: var(--fw-semibold);
+    display: flex;
+    gap: .25rem
+}
+
+label.svelte-pm1ggy p .required-asterisk.svelte-pm1ggy {
+    width: 1rem;
+    display: flex;
+    align-self: start
+}
+
+label.svelte-pm1ggy .box.svelte-pm1ggy {
+    grid-area: 2/1/3/4;
+    border: solid .5px var(--box-clr);
+    padding: .5rem;
+    border-radius: .5rem;
+    transition: box-shadow .2s
+}
+
+label.svelte-pm1ggy .drop-down-svg.svelte-pm1ggy {
+    grid-area: drop-icon;
+    width: 2rem
+}
+
+select:focus+p+span svg,
+select:focus+p+span+.box {
+    --box-clr: hsl(var(--clr-primary-5), 1)
+}
+
+.error.svelte-pm1ggy.svelte-pm1ggy {
+    color: hsl(var(--clr-error-5), 1);
+    font-weight: var(--fw-semibold);
+    width: 100%
+}

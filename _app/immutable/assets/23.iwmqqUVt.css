@@ -1,0 +1,24 @@
+.toggleField.svelte-f12kld.svelte-f12kld {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left
+}
+
+.modal-form.svelte-f12kld.svelte-f12kld {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    text-align: left;
+    gap: 2rem
+}
+
+.modal-form.svelte-f12kld fieldset.svelte-f12kld {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.modal-form.svelte-f12kld legend.subtitle.svelte-f12kld {
+    margin-bottom: .5rem
+}

@@ -1,0 +1,8 @@
+.background.svelte-6ajpfa {
+    position: fixed;
+    top: 0;
+    height: 100svh;
+    width: 1440px;
+    min-width: 100%;
+    z-index: -1
+}
